@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d672c454a93f1e2e22d08b9ca20da324",
+    "packages": [
+        {
+            "name": "exteon/patterns",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/exteon/patterns.git",
+                "reference": "9e52d503f4a06e5c7c09715b4eeaac94f35a188a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/exteon/patterns/zipball/9e52d503f4a06e5c7c09715b4eeaac94f35a188a",
+                "reference": "9e52d503f4a06e5c7c09715b4eeaac94f35a188a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Exteon\\Patterns\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Dinu Marina"
+                }
+            ],
+            "description": "Common code patterns library",
+            "support": {
+                "issues": "https://github.com/exteon/patterns/issues",
+                "source": "https://github.com/exteon/patterns/tree/1.0.0"
+            },
+            "time": "2021-07-22T06:34:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

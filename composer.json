@@ -1,0 +1,23 @@
+{
+  "name": "exteon/kv-store",
+  "version": "1.0.0",
+  "description": "Uniform implementation of various KV stores",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Dinu Marina"
+    }
+  ],
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Exteon\\KvStore\\": [
+        "src"
+      ]
+    }
+  },
+  "require": {
+    "exteon/patterns": "^1.0",
+    "ext-dba": "*"
+  }
+}
