@@ -102,7 +102,7 @@
             int $timeout
         ) {
             $f = $persistent ? 'dba_popen' : 'dba_open';
-            $handle = $f($path, $mode . 'dt', static::getDbaHandler());
+            $handle = $f($path, $mode . 'd', static::getDbaHandler());
             if (!$handle) {
                 if ($count >= $maxCount) {
                     throw new Exception('Cannot acquire DBA lock on ' . $path);
