@@ -157,7 +157,7 @@
         {
             $pathInfo = pathinfo($path);
             if ($pathInfo['extension'] === static::getDbaHandler()) {
-                $path = $pathInfo['dirname'];
+                $path = $pathInfo['dirname'] === '.' ? '' : $pathInfo['dirname'];
                 $path .= $path ? '/' : '';
                 $path .= $pathInfo['filename'];
                 return $path;
