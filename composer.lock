@@ -4,21 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d3123a559d291730a512fa6ee9cf5ed",
+    "content-hash": "0241e9f8458bf44f8414b6d811f751d3",
     "packages": [
         {
             "name": "exteon/patterns",
             "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/exteon/patterns.git",
-                "reference": "9e52d503f4a06e5c7c09715b4eeaac94f35a188a"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/exteon/patterns/zipball/9e52d503f4a06e5c7c09715b4eeaac94f35a188a",
-                "reference": "9e52d503f4a06e5c7c09715b4eeaac94f35a188a",
-                "shasum": ""
+                "type": "path",
+                "url": "/mnt/libraries/patterns",
+                "reference": "9e52d503f4a06e5c7c09715b4eeaac94f35a188a"
             },
             "type": "library",
             "autoload": {
@@ -28,7 +22,6 @@
                     ]
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -38,11 +31,9 @@
                 }
             ],
             "description": "Common code patterns library",
-            "support": {
-                "issues": "https://github.com/exteon/patterns/issues",
-                "source": "https://github.com/exteon/patterns/tree/1.0.0"
-            },
-            "time": "2021-07-22T06:34:15+00:00"
+            "transport-options": {
+                "relative": false
+            }
         }
     ],
     "packages-dev": [],
@@ -55,5 +46,5 @@
         "ext-dba": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
