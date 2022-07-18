@@ -19,5 +19,10 @@
   "require": {
     "exteon/patterns": "^1.0",
     "ext-dba": "*"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
   }
 }
